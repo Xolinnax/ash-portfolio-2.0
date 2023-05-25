@@ -1,0 +1,482 @@
+html
+{
+    background-color:#000000;
+}
+
+.moon
+{
+    text-align:center;
+    height:500px;
+}
+
+.abovestars
+{
+    z-index:1;
+}
+
+.star
+{
+    z-index:0;
+    position:fixed;
+    width:65px;
+}
+
+.cloud
+{
+    z-index:-1;
+    position:absolute;
+    width:400px;
+    top:1000px;
+}
+
+.top
+{
+    height:100vh;
+    background-color:#212121;
+    width:100%;
+    text-align:center;
+}
+
+.title
+{
+    z-index:1;
+    color:white;
+    margin:0;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.top-title
+{
+    z-index:1;
+    padding-top:100px;
+    font-family: 'Dancing Script', cursive;
+    font-size:200px;
+}
+
+.desc
+{
+    padding-bottom:50px;
+    color:#FDE2F3;
+    margin:0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.welcome
+{
+    z-index:1;
+    color:#FDE2F3;
+    background-color:#212121;
+    padding:145px;
+    padding-top:50px;
+    padding-bottom:0px;
+    text-align:center;
+    margin:0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:50px;
+}
+
+.Hero
+{
+    z-index:1;
+    background-color:#323232;
+    width:100%;
+    text-align:center;
+    padding-bottom:100px;
+}
+
+.pfp
+{
+    padding:75px; 
+    justify-content:center;
+    background-color:#323232;
+    height:450px; 
+    border-radius:50%;
+}
+
+.pfpdiv
+{
+    width:100%;
+    padding:0;
+}
+
+.heyyyyyy
+{
+    padding-top:0;
+    color:#ffffff;
+    padding-bottom:10px;
+    font-size:65px;
+    padding-bottom:40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.whoiam
+{
+    color:#FDE2F3;
+    padding-bottom:100px;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+.hobbskill
+{
+    color:white;
+    font-size:75px;
+    padding-bottom:100px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration:underline;
+}
+
+.hobbskilltitle
+{
+    font-size:40px;
+}
+
+.Hobbies
+{
+    z-index:1;
+    width:100%;
+    text-align:center;
+    background-color:#323232;
+    padding-bottom:50px;
+}
+
+.hobbyimg
+{
+    border-radius:10px;
+    width:300px;
+}
+
+.leftimg
+{
+    float:left;
+    margin-left:25%;
+    margin-right:5%;
+}
+
+.leftalign
+{
+    text-align:left;
+}
+
+.rightimgtext
+{
+    margin-left:25%;
+}
+
+.rightimg
+{
+    float:right;
+    margin-right:25%;
+    margin-left:5%;
+}
+
+.hobbyskilldesc
+{
+    margin-right:25%;
+}
+
+.Skills
+{
+    z-index:1;
+    width:100%;
+    text-align:center;
+    background-color:#323232;
+    padding-bottom:50px;
+}
+
+.Prevworks
+{
+    z-index:1;
+    width:100%;
+    text-align:center;
+    background-color:#323232;
+    padding-bottom:50px;
+}
+
+.prevworktitle
+{
+    color:#FDE2F3;;
+    font-size:60px;
+    padding-bottom:95px;
+    padding-top:200px;
+}
+
+.Contact-me
+{
+    z-index:1;
+    text-align:center;
+    width:100%;
+    background-color:#323232;
+}
+
+.whitecolor
+{
+    color:#FDE2F3;
+}
+
+a:link {
+    text-decoration: none;
+    color:#323232;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#323232;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#323232;
+}
+
+a:active {
+    text-decoration: none;
+    color:#323232;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color:#FDE2F3 !important;
+}
+
+.footer
+{
+    z-index:1;
+    text-align:center;
+    width:100%;
+    background-color:#212121;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #FDE2F3;
+}
+
+.topadjust
+{
+    padding-top:50px;
+}
+
+body
+{
+    background-color:#2A2F4F;
+    display:flex;
+    margin:50;
+    flex-wrap:wrap;
+}
+
+.s1
+{
+    left:23%;
+    top:8%;
+    transform:rotate(45deg);
+}
+
+.s2
+{
+    width:75px;
+    right:20%;
+    top:55%;
+    transform:rotate(-45deg);
+}
+
+.s3
+{
+    width:40px;
+    left:5%;
+    top:85%;
+    transform:rotate(-10deg);
+}
+
+.s4
+{
+    right:5%;
+    top:35%;
+    transform:rotate(-45deg);
+}
+
+.s5
+{
+    width:80px;
+    left:15%;
+    top:55%;
+    transform:rotate(-1000deg);
+}
+
+.s6
+{
+    width:35px;
+    right:14%;
+    top:69%;
+    transform:rotate(15deg);
+}
+
+.s7
+{
+    width:90px;
+    left:21%;
+    top:83%;
+    transform:rotate(-35deg);
+}
+
+.s8
+{
+    width:75px;
+    right:24%;
+    top:15%;
+    transform:rotate(-45deg);
+}
+
+.s9
+{
+    width:65px;
+    left:7%;
+    top:15%;
+    transform:rotate(-45deg);
+}
+
+.s10
+{
+    width:85px;
+    right:7%;
+    top:87%;
+    transform:rotate(-13deg);
+}
+
+.s11
+{
+    width:45px;
+    left:20%;
+    top:35%;
+    transform:rotate(-45deg);
+}
+
+.s12
+{
+    width:35px;
+    right:10%;
+    top:10%;
+    transform:rotate(-13deg);
+}
+
+.s13
+{
+    width:65px;
+    left:2%;
+    top:45%;
+    transform:rotate(-45deg);
+}
+
+.s14
+{
+    width:55px;
+    right:32%;
+    top:87%;
+    transform:rotate(-13deg);
+}
+
+
+@media(max-width:1100px)
+{
+    .top-title
+    {
+        font-size:125px;
+    }
+    .welcome
+    {
+        padding-top:100px;
+        font-size:35px;
+    }
+    .moon
+    {
+        height:500px;
+        padding-top:100px;
+    } 
+    .pfp
+    {
+        height:350px;
+    } 
+    .heyyyyyy
+    {
+        font-size:50px;
+    }  
+    .whoiam
+    {
+        margin-left:15%;
+        margin-right:15%;
+        font-size:18px;
+    }
+    .hobbskill
+    {
+        font-size:60px;
+    }
+    .hobbskilltitle
+    {
+        font-size:40px;
+    }
+    .desc
+    {
+        font-size:20px;
+    }
+    .gamin
+    {
+        text-align: center;
+    }
+    .leftimg
+    {
+        margin:0;
+        float:none;
+    }
+    .leftalign
+    {
+        margin-left:15%;
+        margin-right:15%;
+        text-align:center;
+    }
+    .chillinandcoolin
+    {
+        text-align:center;
+    }
+    .rightimg
+    {
+        float:none;
+        margin:0;
+    }
+    .prevworktitle
+    {
+        font-size:40px;
+    }
+    .s1
+    {
+        left:3%;
+    }
+    .s3
+    {
+        top:70%;
+    }
+    .s5
+    {
+        left:10%;
+    }
+    .s7
+    {
+        left:10%;
+    }
+    .s11
+    {
+        left:10%;
+    }
+    .s2
+    {
+        right:5%;
+    }
+    .s8
+    {
+        right:2%;
+    }
+    .s14
+    {
+        top:75%;
+        right:5%;
+    }
+
+}
